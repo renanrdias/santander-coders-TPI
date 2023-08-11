@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import pandas as pd
 
 # Simulação de Dados: Crie uma função que simule o lançamento de dois dados de seis lados 
 # (valores de 1 a 6). Esta função deve retornar a soma dos resultados dos dados.
@@ -75,9 +76,9 @@ if __name__ == '__main__':
 
     medidas_de_posicao = calcular_medidas_de_posicao(simulacao, media=np.mean, minimo=np.min, maximo=np.max)
 
-    print(medidas_de_posicao)
+    print(f'As medidas de posição são:\n {pd.Series(medidas_de_posicao)}')
 
-    print(contar_valores(simulacao))
+    print(f'Frequência absoluta dos resultados:\n{pd.Series(contar_valores(simulacao))}')
 
     plotar_histograma(simulacao, 'Valores unicos', 'Frequencia', 
                       medidas_de_posicao=medidas_de_posicao, 
