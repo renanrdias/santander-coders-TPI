@@ -22,3 +22,15 @@ Análise de Dados: Agora, vamos analisar os resultados desses jogos. Calcule e i
 - Teste de Hipótese: Agora vamos fazer um pouco de teste de hipóteses:
     1. Supondo um jogo justo (ou seja, todos os lançamentos são igualmente prováveis), o resultado da sua simulação coincide com essa suposição? Por que sim ou por que não?
     2. O que isso significa para um jogador do jogo de dados?
+
+## Instalação
+
+Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar as dependências necessárias.
+
+> pip install -r requirements.txt
+
+## Uso
+
+> python3 main.py
+
+
