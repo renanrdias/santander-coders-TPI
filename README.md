@@ -27,10 +27,14 @@ Análise de Dados: Agora, vamos analisar os resultados desses jogos. Calcule e i
 
 Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar as dependências necessárias.
 
-> pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 ## Uso
 
-> python3 main.py
+```bash
+python3 main.py
+```
 
 
