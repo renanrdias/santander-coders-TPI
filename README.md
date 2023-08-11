@@ -34,5 +34,5 @@ pip install -r requirements.txt
 ## Uso
 
 ```bash
-python3 main.py
+python3 projeto.py
 ```
